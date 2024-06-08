@@ -1,0 +1,27 @@
+{
+  "name": "github-actions-cicd-practice",
+  "version": "1.0.0",
+  "description": "sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/app.test.js",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prudv13/github-actions-cicd-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prudv13/github-actions-cicd-practice/issues"
+  },
+  "homepage": "https://github.com/prudv13/github-actions-cicd-practice#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
